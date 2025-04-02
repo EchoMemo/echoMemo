@@ -31,7 +31,7 @@ const LoginScreen = ({ navigation }) => {
   };
 
   return (
-    <LinearGradient colors={['#510A32','#2d142c']} style={styles.gradient}>
+    <LinearGradient colors={['#000000','#393a3b']} style={styles.gradient}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={styles.container}>
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.innerContainer}>
