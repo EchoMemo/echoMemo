@@ -16,7 +16,7 @@ const AppNavigator = () => {
         ) : (
           <Stack.Screen name="Auth" component={AuthStack} />
         )} */}
-        <Stack.Screen name="Auth" component={AuthStack} />
+        <Stack.Screen name="Auth" component={MainStack} />
       </Stack.Navigator>
     </NavigationContainer>
   );
